@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;newwallpaper&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../GDE" />
+      <root url="file://$PROJECT_DIR$/../../../app4" />
+      <root url="file://$PROJECT_DIR$/../../../vote" />
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../../gocode.go" />
+      <root url="file://$PROJECT_DIR$/../../lib" />
+      <root url="file://$PROJECT_DIR$/../../beego" />
+      <root url="file://$PROJECT_DIR$/../../go-gl" />
+      <root url="file://$PROJECT_DIR$/../../mattn" />
+      <root url="file://$PROJECT_DIR$/../../google" />
+      <root url="file://$PROJECT_DIR$/../../howeyc" />
+      <root url="file://$PROJECT_DIR$/../../jtolds" />
+      <root url="file://$PROJECT_DIR$/../../astaxie" />
+      <root url="file://$PROJECT_DIR$/../../codahale" />
+      <root url="file://$PROJECT_DIR$/../../fogleman" />
+      <root url="file://$PROJECT_DIR$/../../salviati" />
+      <root url="file://$PROJECT_DIR$/../../conformal" />
+      <root url="file://$PROJECT_DIR$/../../shadowsocks" />
+      <root url="file://$PROJECT_DIR$/../../go-sql-driver" />
+      <root url="file://$PROJECT_DIR$/../../smartystreets" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../studygolang" />
+      <root url="file://$PROJECT_DIR$/../../../code.google.com" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
