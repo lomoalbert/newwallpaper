@@ -10,7 +10,7 @@ import (
 )
 
 type bingimage struct {
-    //XMLName xml.Name `xml:"images"`
+    XMLName xml.Name `xml:"images"`
     Images []image `xml:"image"`
 }
 
