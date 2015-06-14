@@ -36,6 +36,11 @@ func getimg(url,finame string){
 }
 
 func main(){
+    defer func(){
+        if err:=recover();err!=nil{
+            fmt.Println(err)
+        }
+    }()
     finame := flag.String("path", "", "path to backgroud picture.")
     flag.Parse()
     if *finame==""{
