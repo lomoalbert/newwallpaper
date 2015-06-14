@@ -32,7 +32,6 @@ func getimg(url,finame string){
         panic(err)
     }
     defer fi.Close()
-    fmt.Println(len(fd))
     fi.Write(fd)
 }
 
@@ -53,6 +52,5 @@ func main(){
     var todayimg bingimage
     err =xml.Unmarshal(fd, &todayimg)
     imgurl:="https://bing.com"+todayimg.Images[0].Url
-    fmt.Println(imgurl)
     getimg(imgurl,*finame)
 }
