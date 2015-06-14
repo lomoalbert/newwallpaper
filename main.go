@@ -40,7 +40,7 @@ func main(){
     finame := flag.String("path", "", "path to backgroud picture.")
     flag.Parse()
     if *finame==""{
-        fmt.Println("请输入路径.")
+        fmt.Println("请输入路径: --path=/home/yourname/Pictures/wallpaper")
         return
     }
     url:="http://www.bing.com/HPImageArchive.aspx?format=xml&idx=0&n=8"
