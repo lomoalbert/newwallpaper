@@ -1,4 +1,4 @@
-# newwallpape
+# newwallpaper
 
 ## 用途:
 本工具用于自动更新桌面壁纸文件
@@ -9,5 +9,7 @@
 ## 原理:
 运行程序时获取bing壁纸,覆盖桌面壁纸文件
 
-
+## 用法:
+1.确定当前壁纸文件路径,如/path/wallpaper
+2.执行 ./newwallpaper --path=/path/wallpaper
 
