@@ -12,6 +12,6 @@
 ## 用法:
 1.go get github.com/vzever/newwallpaper
 2.go install github.com/vzever/newwallpaper
-3.确定当前壁纸文件路径,如/path/wallpaper
+3.确定当前选用的壁纸文件路径,如/path/wallpaper
 4.执行 $GOBIN/newwallpaper --path=/path/wallpaper
 
