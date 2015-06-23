@@ -56,6 +56,6 @@ func main(){
     fd,err :=ioutil.ReadAll(response.Body)
     var todayimg bingimage
     err =xml.Unmarshal(fd, &todayimg)
-    imgurl:="https://bing.com"+todayimg.Images[0].Url
+    imgurl:="http://www.bing.com"+todayimg.Images[0].Url
     getimg(imgurl,*finame)
 }
